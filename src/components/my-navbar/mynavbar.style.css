@@ -1,0 +1,19 @@
+.myLogo{
+    height: 40px;
+    object-fit: fit;
+    border-radius: 25px;
+}
+
+.nav-theme{
+    background-color: #101018f8;
+    font-size: 20px;
+}
+
+@keyframes moveDown {
+    from{
+        transform: translateY(-5rem);
+    }
+    to{
+        transform: translateY(0rem);
+    }
+}
