@@ -17,3 +17,7 @@
         transform: translateY(0rem);
     }
 }
+
+.navlinks{
+    color: black !important;
+}

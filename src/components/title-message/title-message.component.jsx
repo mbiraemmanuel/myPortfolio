@@ -42,7 +42,7 @@ const TitleMessage = () => {
                 options={{
                     strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
                     autoStart: true,
-                    loops: true,
+                    loop: true,
                     delay: 50
                 }}
             />
