@@ -5,11 +5,12 @@ import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-caraousel.component"
 import MyTitleMessage from "./components/title-message/title-message.component";
 import Fade from "react-reveal/Fade"
-import Slide from "react-reveal/Slide";
+// import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import About from "./pages/about/about.component";
-import { Parallax, Background } from 'react-parallax';
+import { Parallax, } from 'react-parallax';
 import Back from "./assets/background.jpg";
+import Skills from "./pages/skills/skills.component";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           </div>
           <div style={{ height: '200px' }} />
         </Parallax>
+        <Skills />
 
       </div>
 
