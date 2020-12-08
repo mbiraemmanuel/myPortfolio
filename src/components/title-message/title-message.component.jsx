@@ -9,7 +9,7 @@ const MyTitleMessage = styled.h1`
   z-index: 1;
   margin-top: -125px;
   text-align: center;
-  font-size: 3vh;
+  font-size: 2em;
   strong {
     font-size: 1.25em;
   }
@@ -19,7 +19,7 @@ const MyTitleMessage = styled.h1`
     font-weight: 100;
     letter-spacing: 7px;
     .main {
-      font-size: 3vw;
+      font-size: 2rem;
     }
     .sub {
       letter-spacing: 2px;
@@ -30,7 +30,7 @@ const MyTitleMessage = styled.h1`
 const TitleMessage = () => {
   return (
     <MyTitleMessage>
-      <div className="head">
+      <div className="head" id="home">
         <div className="main text-center mb-3">
           Hi, I am
                     <br />

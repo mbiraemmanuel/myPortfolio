@@ -19,7 +19,7 @@ const Projects = () => {
                     >
                         <>
                             <UrlButton href="https://unsplash.com/search/photos/undersea">
-                                View more undersea photos
+                                View more  undersea photos
             </UrlButton>
                         </>
                     </ImageEvent>

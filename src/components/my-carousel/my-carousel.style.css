@@ -1,4 +1,13 @@
 .slide{
     height: 100vh;
+    object-fit: cover;
     
+}
+
+blockquote{
+    font-size: 1em;
+}
+
+.nav{
+    background-color: tomato;
 }
