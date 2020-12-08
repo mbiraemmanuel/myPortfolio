@@ -5,10 +5,11 @@ import Typewriter from 'typewriter-effect';
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 18rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;
+  font-size: 3vh;
   strong {
     font-size: 1.25em;
   }
@@ -18,36 +19,35 @@ const MyTitleMessage = styled.h1`
     font-weight: 100;
     letter-spacing: 7px;
     .main {
-      font-size: 50px;
+      font-size: 3vw;
     }
     .sub {
-      font-size: 27px;
       letter-spacing: 2px;
     }
   }
 `;
 
 const TitleMessage = () => {
-    return (
-        <MyTitleMessage>
-            <div className="head">
-                <div className="main text-center mb-3">
-                    Hi, I am
+  return (
+    <MyTitleMessage>
+      <div className="head">
+        <div className="main text-center mb-3">
+          Hi, I am
                     <br />
-                    <span><strong>Emmanuel Maina</strong></span>
+          <span><strong>Emmanuel Maina</strong></span>
 
-                </div>
-            </div>
-            <Typewriter
-                options={{
-                    strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
-                    autoStart: true,
-                    loop: true,
-                    delay: 50
-                }}
-            />
-        </MyTitleMessage>
-    );
+        </div>
+      </div>
+      <Typewriter
+        options={{
+          strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
+          autoStart: true,
+          loop: true,
+          delay: 50
+        }}
+      />
+    </MyTitleMessage>
+  );
 }
 
 export default TitleMessage;

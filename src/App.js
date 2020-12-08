@@ -11,6 +11,7 @@ import About from "./pages/about/about.component";
 import { Parallax, } from 'react-parallax';
 import Back from "./assets/background.jpg";
 import Skills from "./pages/skills/skills.component";
+import Projects from './components/projects-timeline/projects.component';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <div style={{ height: '200px' }} />
         </Parallax>
         <Skills />
+        {/* <Projects /> */}
 
       </div>
 
