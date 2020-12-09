@@ -37,7 +37,7 @@ function App() {
           <div style={{ height: '200px' }} />
         </Parallax>
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
 
       </div>
 
