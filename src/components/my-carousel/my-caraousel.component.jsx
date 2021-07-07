@@ -15,7 +15,7 @@ const MyCarousel = () => {
                     <img className="d-block w-100 slide" src={slide2} alt="Slide" />
                     <Carousel.Caption>
                         <blockquote>
-                            <p>The Ultimate measure of a man is not where he stands in the moments if comfort, but where he stands at times of challenge an controversy</p>
+                            <p>The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
                             <cite>Martin Luther King Jr.</cite>
                         </blockquote>
                     </Carousel.Caption>

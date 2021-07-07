@@ -5,6 +5,8 @@ import challenge from "../../assets/challenge.png";
 import testimonial from "../../assets/testimonial.png";
 import landing from "../../assets/landing.png";
 import portfolio from "../../assets/Portfolio.png";
+import articleSearch from "../../assets/articleSearch.png";
+import kanban from "../../assets/kanban.png";
 
 const Projects = () => {
     return (
@@ -78,6 +80,28 @@ const Projects = () => {
                         url=""
                         alt="My Website"
                         credit="Created By Emmanuel Maina"
+
+                    >
+                    </ImageEvent>
+
+                    <ImageEvent
+                        date="2021"
+                        text="Salesforce Kanban"
+                        src={kanban}
+                        url=""
+                        alt="Kanban Board"
+                        credit="Custom Salesforce Kanban built by LWC framework"
+
+                    >
+                    </ImageEvent>
+
+                    <ImageEvent
+                        date="2021"
+                        text="Article Search Engine"
+                        src={articleSearch}
+                        url=""
+                        alt="My Website"
+                        credit="A saleforce search engine for aticles that you can use in your flow for easy case creation"
 
                     >
                     </ImageEvent>
