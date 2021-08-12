@@ -15,16 +15,6 @@ const Projects = () => {
             <hr />
             <Timeline>
                 <Events>
-                    {/* <TextEvent date="2018-2019" text="<strong>Intern, Internet Installation Department, Elenix Telecoms, Nairobi, Kenya.</strong>
-                    <ul>
-                    <li>Installed internet to clients countrywide
-                    </li>
-                    <li>Troubleshot clients’ internet issues</li>
-                    <li>Maintained company computers and network equipment</li>
-                    <li>Planned team’s internet installation schedule</li>
-                    <li>Worked with clients all over the country while installing, troubleshooting internet</li>
-                    </ul>" /> */}
-
                     <ImageEvent
                         date="2019"
                         text="Javascript FunTime Projects"
@@ -38,6 +28,7 @@ const Projects = () => {
                             <UrlButton href="https://main.d23qj5f635sm9d.amplifyapp.com/">
                                 Have fun with some games
                             </UrlButton>
+                            <a href="https://github.com/mbiraemmanuel/Java-Script-Crash-Course">View Source</a>
                         </>
                     </ImageEvent>
 
@@ -54,6 +45,7 @@ const Projects = () => {
                             <UrlButton href="https://master...amplifyapp.com ">
                                 Take a peek at the page
                             </UrlButton>
+                            <a href="">View Source</a>
                         </>
                     </ImageEvent>
 
@@ -70,6 +62,7 @@ const Projects = () => {
                             <UrlButton href="https://main...amplifyapp.com  ">
                                 Take a peek at the page
                             </UrlButton>
+                            <a href="">View Source</a>
                         </>
                     </ImageEvent>
 
@@ -82,6 +75,9 @@ const Projects = () => {
                         credit="Created By Emmanuel Maina"
 
                     >
+                        <>
+                            <a href="https://github.com/mbiraemmanuel/myPortfolio">View Source</a>
+                        </>
                     </ImageEvent>
 
                     <ImageEvent
@@ -93,6 +89,9 @@ const Projects = () => {
                         credit="Custom Salesforce Kanban built by LWC framework"
 
                     >
+                        <>
+                            <a href="">View Source</a>
+                        </>
                     </ImageEvent>
 
                     <ImageEvent

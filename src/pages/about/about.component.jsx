@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Profile from '../../assets/EmmanuelMaina.jpg';
+import Profile from '../../assets/EmmanuelMaina.jpeg';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Zoom from 'react-reveal/Zoom';
@@ -43,12 +43,12 @@ const About = () => {
                                                 My Resume
                                             </Button>
                                         </a>
-                                        <a href="#contact">
+                                        <a href="https://github.com/mbiraemmanuel">
                                             <Button className="m-2" variant="outline-dark">
                                                 GitHub
                                             </Button>
                                         </a>
-                                        <a href="#contact">
+                                        <a href="https://www.linkedin.com/in/mainaemmanuel">
                                             <Button className="m-2" variant="outline-info">
                                                 LinkedIn
                                             </Button>

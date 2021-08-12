@@ -136,6 +136,24 @@ export const skills = {
             imgSrc: L_PYTHON,
             skillName: "Python",
         },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "C++",
+            imgSrc: L_PYTHON,
+            skillName: "C++",
+        },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "Apex",
+            imgSrc: L_PYTHON,
+            skillName: "Apex",
+        },
+        {
+            link: "https://www.python.org/",
+            imgAltText: "Python",
+            imgSrc: L_PYTHON,
+            skillName: "Python",
+        },
     ],
     databases: [
         {

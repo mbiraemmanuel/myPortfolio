@@ -12,6 +12,8 @@ import { Parallax, } from 'react-parallax';
 import Back from "./assets/background.jpg";
 import Skills from "./pages/skills/skills.component";
 import Projects from './components/projects-timeline/projects.component';
+import Experience from './pages/experience/experience.component';
+import Contact from './components/contact-me/contact.component';
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
         </Parallax>
         <Skills />
         <Projects />
+        <Experience/>
+        <Contact/>
 
       </div>
 
