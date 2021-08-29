@@ -7,6 +7,7 @@ import landing from "../../assets/landing.png";
 import portfolio from "../../assets/Portfolio.png";
 import articleSearch from "../../assets/articleSearch.png";
 import kanban from "../../assets/kanban.png";
+import netflixClone from "../../assets/netflix.png"
 
 const Projects = () => {
     return (
@@ -103,6 +104,20 @@ const Projects = () => {
                         credit="A saleforce search engine for aticles that you can use in your flow for easy case creation"
 
                     >
+                    </ImageEvent>
+
+                    <ImageEvent
+                        date="2021"
+                        text="Netflix Clone"
+                        src={netflixClone}
+                        url="https://github.com/mbiraemmanuel/maina-netflix-clone"
+                        alt="Netflix Clone"
+                        credit="A netflix clone web app"
+
+                    >
+                        <>
+                            <a href="https://github.com/mbiraemmanuel/maina-netflix-clone">View Source</a>
+                        </>
                     </ImageEvent>
 
 

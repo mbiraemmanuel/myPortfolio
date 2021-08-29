@@ -10,6 +10,7 @@ import Container from "react-bootstrap/Container";
 import About from "./pages/about/about.component";
 import { Parallax, } from 'react-parallax';
 import Back from "./assets/background.jpg";
+import contactbackground from "./assets/contactBackground.jpg"
 import Skills from "./pages/skills/skills.component";
 import Projects from './components/projects-timeline/projects.component';
 import Experience from './pages/experience/experience.component';
@@ -41,7 +42,17 @@ function App() {
         <Skills />
         <Projects />
         <Experience/>
-        <Contact/>
+        <Parallax 
+          blur={{ min: -30, max: 30 }}
+          bgImage={contactbackground}
+          bgImageAlt="board"
+          strength={-200}
+        >
+          <Container className="container-box round">
+            <Contact/>
+          </Container>
+        </Parallax>
+        
 
       </div>
 
