@@ -1,52 +1,36 @@
 import React from 'react';
 import styled from "styled-components";
 import Typewriter from 'typewriter-effect';
-
-const MyTitleMessage = styled.h1`
-  position: absolute;
-  width: 100%;
-  top: 18rem;
-  z-index: 1;
-  margin-top: -125px;
-  text-align: center;
-  font-size: 2em;
-  strong {
-    font-size: 1.25em;
-  }
-  div {
-    color: ${props => props.theme.textColor};
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 7px;
-    .main {
-      font-size: 2rem;
-    }
-    .sub {
-      letter-spacing: 2px;
-    }
-  }
-`;
+import './title-message.component.css'
 
 const TitleMessage = () => {
   return (
-    <MyTitleMessage>
-      <div className="head" id="home">
-        <div className="main text-center mb-3">
-          Hi, I am
-                    <br />
-          <span><strong>Emmanuel Maina</strong></span>
-
+    <>
+      <div className="wrapper">
+        
+        <div className="title-content">
+          <h1 className="main-message"> Hi, My Name is <strong>Emmanuel Maina</strong></h1>
+          <br/>
+          <br/>
+          <span className="typewritter-text">
+            <Typewriter
+                  options={{
+                    strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
+                    autoStart: true,
+                    loop: true,
+                    delay: 50
+                  }}
+                />
+          </span>
+          <div className="bottom">
+            <span className="subtext">
+              <h6>Welcome to my portfolio, here I get to show you my skills, achievements, projects, and hobbies</h6>
+            </span>
+          </div>
+          
         </div>
       </div>
-      <Typewriter
-        options={{
-          strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
-          autoStart: true,
-          loop: true,
-          delay: 50
-        }}
-      />
-    </MyTitleMessage>
+    </>
   );
 }
 
