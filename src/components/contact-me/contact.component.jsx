@@ -40,8 +40,10 @@ const Contact = () => {
         <div id="contact">
             <Container>
                 <div className="title">
-                    <h2 className="contact-title">Contact Me</h2>
+                    <h2 className="contact-title font-details">Contact Me</h2>
+                    
                 </div>
+                <hr />
                 <Form onSubmit={sendEmail}>
                     <Form.Group className="mb-3" controlId="ControlTextarea1">
                         <Form.Label>Name</Form.Label>

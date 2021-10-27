@@ -8,7 +8,8 @@ const Skills = () => {
         <div id="skills">
             <div className="skills pt-3 pb-3">
                 <Container>
-                    <h1 className="text-center font-details- pb-4">TECH SKILLS</h1>
+                    <h1 className="text-center font-details pb-4 tech-title">TECH SKILLS</h1>
+                    <hr/>
                     <CardDeck>
                         <Row className="d-flex justify-content-around">
                             <Col md={4}>

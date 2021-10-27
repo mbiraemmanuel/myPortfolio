@@ -6,13 +6,14 @@ import testimonial from "../../assets/testimonial.png";
 import landing from "../../assets/landing.png";
 import portfolio from "../../assets/Portfolio.png";
 import articleSearch from "../../assets/articleSearch.png";
-import kanban from "../../assets/kanban.png";
+import kanban from "../../assets/workboard.png";
 import netflixClone from "../../assets/netflix.png"
+import gamedashboard from "../../assets/gamingdashboard.png"
 
 const Projects = () => {
     return (
         <>
-            <h1 id="projects" className="text-center font-details- pb-4">PROJECTS</h1>
+            <h1 id="projects" className="text-center font-details pb-4">PROJECTS</h1>
             <hr />
             <Timeline>
                 <Events>
@@ -91,7 +92,22 @@ const Projects = () => {
 
                     >
                         <>
-                            <a href="">View Source</a>
+                            {/* <a href="">View Source</a> */}
+                        </>
+                    </ImageEvent>
+
+                    
+                    <ImageEvent
+                        date="2021"
+                        text="Gamers Attractive Dashboard with CSS"
+                        src={gamedashboard}
+                        url="https://mbiraemmanuel.github.io/Glass-Website/"
+                        alt="Gamers Dashboard"
+                        credit=""
+
+                    >
+                        <>
+                            <a href="https://mbiraemmanuel.github.io/Glass-Website/">View Website</a>
                         </>
                     </ImageEvent>
 
@@ -119,6 +135,18 @@ const Projects = () => {
                             <a href="https://github.com/mbiraemmanuel/maina-netflix-clone">View Source</a>
                         </>
                     </ImageEvent>
+
+                    <YouTubeEvent
+                        date="2021"
+                        id="upYPrEFGkrY"
+                        name="The Fight Against Covid Game"
+                        credit="Participarted in a hackathon competition and created a game that won an award."
+                    >
+                        <>
+                            <a href="https://devpost.com/software/the-fight-against-covid">Devpost Website</a>
+                            <a href="https://github.com/jessicajumelles/Hackathon-pygame">View Source</a>
+                        </>
+                    </YouTubeEvent>
 
 
                 </Events>
