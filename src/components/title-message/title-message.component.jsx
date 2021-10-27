@@ -8,14 +8,14 @@ const TitleMessage = () => {
     <>
       <div id="home" className="wrapper">
         
-        <div className="title-content">
+        <div className="title-content text-center">
           <h1 className="main-message"> Hi, My Name is <strong>Emmanuel Maina</strong></h1>
           <br/>
           <br/>
           <span className="typewritter-text">
             <Typewriter
                   options={{
-                    strings: ["Web Developer", "Salesforce Administrator", "Student", "Software Engineer", "Cyber Engineer"],
+                    strings: ["Web Developer", "Salesforce Developer", "Student", "Software Engineer", "Cyber Engineer"],
                     autoStart: true,
                     loop: true,
                     delay: 50
